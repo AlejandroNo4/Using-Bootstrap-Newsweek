@@ -1,11 +1,10 @@
 body {
   font-family: "Roboto", sans-serif;
-  width: 97%;
   max-width: 1310px;
   margin: auto;
 }
 
-h1 {
+.margin-0 {
   margin: 0;
 }
 
@@ -23,6 +22,7 @@ h1 {
   align-content: center;
   justify-content: center;
   font-family: "Roboto Condensed", sans-serif;
+  padding-right: 0;
   padding-left: 2em;
 }
 
@@ -45,7 +45,6 @@ h1 {
   color: white;
   font-size: 5em;
   letter-spacing: -3.5px;
-  border: 1px solid teal;
 }
 
 .log-in-subscribe-cont {
@@ -54,7 +53,7 @@ h1 {
 }
 
 .log-in-subscribe {
-  margin-right: 1em;
+  margin-right: 0.8em;
   align-items: baseline;
 }
 
@@ -69,8 +68,49 @@ h1 {
 .subscribe {
   background-color: #ffe400;
   border-radius: 25px;
-  margin-left: 15px;
-  padding: 1px 10px;
+  margin-left: 25px;
+  padding: 1px 15px;
+}
+
+/*** navbar ***/
+
+.navbar-cont {
+  flex-wrap: nowrap;
+}
+
+.nav {
+  width: 95%;
+  justify-content: space-evenly;
+  padding: 0.9em 0;
+  flex-wrap: nowrap;
+}
+
+.line-li {
+  border-right: 1px solid #d9d9d9;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  color: black;
+  font-weight: 700;
+  padding: 0;
+  flex-wrap: nowrap;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.nav-link:hover {
+  color: #f72210;
+}
+
+.search img {
+  margin-left: 5px;
+}
+
+.navbar-border-div {
+  padding: 0;
+  width: 5%;
+  border-left: 15px solid white;
+  border-top: 15px solid #f72210;
 }
 
 .grand-square {
@@ -89,4 +129,6 @@ h1 {
 
 .blue {
   background-color: turquoise;
+  height: 15px;
+  width: 15px;
 }
