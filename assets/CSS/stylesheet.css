@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 97%;
+  max-width: 1310px;
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+.top-navbar {
+  background-color: #f72210;
+  color: white;
+}
+
+.top-navbar a {
+  color: white;
+}
+
+.weather-date-container {
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-left: 2em;
+}
+
+.weather-container {
+  margin-bottom: 0.5em;
+}
+
+.weather-container span {
+  font-weight: 700;
+  margin: 0 4px;
+  font-size: 0.9em;
+}
+
+.weather-icon {
+  height: 1.6em;
+}
+
+.logo {
+  font-family: "Roboto slab", sans-serif;
+  color: white;
+  font-size: 5em;
+  letter-spacing: -3.5px;
+  border: 1px solid teal;
+}
+
+.log-in-subscribe-cont {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.log-in-subscribe {
+  margin-right: 1em;
+  align-items: baseline;
+}
+
+.log-in-subscribe a,
+.log-in-subscribe button {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.1em;
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+
+.subscribe {
+  background-color: #ffe400;
+  border-radius: 25px;
+  margin-left: 15px;
+  padding: 1px 10px;
+}
+
+.grand-square {
+  background-color: turquoise;
+  width: 4em;
+  height: 50em;
+}
+
+.red {
+  background-color: tomato;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: turquoise;
+}
