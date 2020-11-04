@@ -2,6 +2,15 @@ body {
   font-family: "Roboto", sans-serif;
   max-width: 1310px;
   margin: auto;
+  background-color: #f4f5f6;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  background-color: white;
 }
 
 .margin-0 {
@@ -27,6 +36,7 @@ body {
 }
 
 .weather-container {
+  width: 270px;
   margin-bottom: 0.5em;
 }
 
@@ -74,14 +84,10 @@ body {
 
 /*** navbar ***/
 
-.navbar-cont {
-  flex-wrap: nowrap;
-}
-
-.nav {
+.top-links-nav {
   width: 95%;
   justify-content: space-evenly;
-  padding: 0.9em 0;
+  padding: 0.8em 0;
   flex-wrap: nowrap;
 }
 
@@ -111,6 +117,36 @@ body {
   width: 5%;
   border-left: 15px solid white;
   border-top: 15px solid #f72210;
+}
+
+.second-nav {
+  border-top: 1px solid #d9d9d9;
+}
+
+.bottom-links-nav li > a,
+.trending-link {
+  margin: 0.45em 0 0.4em 1.85em;
+  font-size: 16px;
+  color: gray;
+}
+
+.trending-link {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 900;
+  color: black;
+}
+
+.top-divider {
+  background-color: #f4f5f6;
+  font-size: 15px;
+  font-weight: 500;
+  color: darkgray;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.top-divider span {
+  margin: 0 0.5em;
 }
 
 .grand-square {
