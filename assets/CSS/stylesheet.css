@@ -157,10 +157,13 @@ header {
 
 .red {
   background-color: tomato;
+  width: 75%;
+  height: 45px;
 }
 
 .yellow {
   background-color: yellow;
+  height: 25px;
 }
 
 .blue {
