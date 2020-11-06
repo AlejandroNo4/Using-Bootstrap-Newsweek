@@ -21,6 +21,7 @@
     <title>Newsweek</title>
   </head>
   <body>
+    <!------------------------- STARTS HEADER ------------------------------------>
     <header class="container-fluid">
       <div class="row row-cols-2 row-cols-lg-3 top-navbar">
         <div class="col weather-date-container d-none d-lg-flex">
@@ -141,7 +142,9 @@
     <!------------------- ENDS HEADER AND STARTS MAIN --------------------------->
     <main class="container-fluid">
       <div class="row main-articles justify-content-around">
-        <div class="col-12 col-md col-lg-5 order-md-2 main-center">
+        <div
+          class="col-12 col-md col-lg-5 order-md-2 main-center position-relative"
+        >
           <article class="main-article-item">
             <h2 class="article-gray-category">TOP STORY</h2>
             <div class="img-main-article-container">
@@ -278,7 +281,7 @@
           <h2 class="article-gray-category margin-top-25 d-none d-md-block">
             MORE STORIES
           </h2>
-          <section class="d-none d-md-block">
+          <section class="d-none d-md-block sticky-top">
             <div class="d-flex more-stories-container">
               <a href="#"
                 ><img
@@ -949,7 +952,7 @@
               </ul>
             </div>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center padding-sides">
             <article class="card col-11 col-md-5 col-lg-12">
               <div class="card-img-container">
                 <a href="#"
@@ -972,7 +975,29 @@
               </div>
             </article>
           </div>
-          <div class="row justify-content-center">
+          <aside class="sign-up">
+            <div class="d-flex align-items-center">
+              <img
+                src="assets/Images/apple-touch-icon.png"
+                alt="icon-logo"
+                class="logo-sign"
+              />
+              <h5>START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
+            </div>
+            <form action="#">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control input-sign-up"
+                placeholder="Email address"
+              />
+              <button type="submit" class="btn btn-sign-up btn-block">
+                FREE SIGN UP >
+              </button>
+            </form>
+          </aside>
+          <div class="row justify-content-center padding-sides">
             <article class="card col-11 col-md-5 col-lg-12">
               <div class="card-img-container">
                 <a href="#"
@@ -995,7 +1020,7 @@
               </div>
             </article>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center padding-sides">
             <article class="card col-11 col-md-5 col-lg-12">
               <div class="card-img-container">
                 <a href="#"
@@ -1018,7 +1043,7 @@
               </div>
             </article>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center padding-sides">
             <article class="card col-11 col-md-5 col-lg-12">
               <div class="card-img-container">
                 <a href="#"
@@ -1041,7 +1066,7 @@
               </div>
             </article>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center padding-sides">
             <article class="card col-11 col-md-5 col-lg-12">
               <div class="card-img-container">
                 <a href="#"
@@ -1064,7 +1089,7 @@
               </div>
             </article>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center padding-sides">
             <article class="card col-11 col-md-5 col-lg-12">
               <div class="card-img-container">
                 <a href="#"
