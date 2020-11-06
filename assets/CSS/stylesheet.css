@@ -517,3 +517,13 @@ main {
 .card-news {
   padding: 25px 25px 25px 25px;
 }
+
+.wrapper-gray-subscribe {
+  background-color: rgb(237, 237, 237);
+  padding: 35px 35px;
+  margin: 25px 0 0 5px;
+}
+
+.subscribe-title {
+  margin-bottom: 15px;
+}
