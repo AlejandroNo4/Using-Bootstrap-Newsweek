@@ -10,6 +10,10 @@ a:hover {
   text-decoration: none;
 }
 
+h5 {
+  line-height: 1;
+}
+
 header,
 main {
   background-color: white;
@@ -19,8 +23,17 @@ main {
   padding-top: 20px;
 }
 
+.list-unstyled {
+  padding: 0;
+  margin: 0;
+}
+
 .margin-0 {
   margin: 0;
+}
+
+.margin-top-25 {
+  margin-top: 25px;
 }
 
 .top-navbar {
@@ -155,7 +168,38 @@ main {
   margin: 0 0.5em;
 }
 
+/*************************  SECTION ***********************************/
+
+.card {
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.card-category {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #3581f3;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.blue-card-body {
+  padding: 20px;
+}
+
+.card-title a {
+  color: black;
+}
+
 /************************* MAIN-TOP SECTION *******************************/
+
+/* MAIN ARTICLES (PART IS FOR THE LEFT SIDE) */
 
 .main-article-item {
   margin-bottom: 17px;
@@ -200,6 +244,52 @@ main {
   font-size: 15px;
 }
 
+/* MY TURN / CULTURE & TRAVEL */
+
+.turn-culture-travel-box h5 {
+  margin: 13px 0;
+}
+
+.my-turn-title {
+  color: #818181;
+  font-size: 0.85em;
+}
+
+.my-turn-title:hover {
+  color: #818181;
+}
+
+.turn-img-container {
+  position: relative;
+}
+
+.img-category-lil {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #c2d4d7;
+  color: #333333;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding: 5px;
+}
+
+/* MORE STORIES */
+
+.more-stories-container {
+  border-top: 1px solid #dddddd;
+  margin: 5px 0;
+  padding: 15px 0;
+}
+
+.more-stories-img {
+  margin-right: 10px;
+}
+
+.more-stories-description {
+  margin-top: 10px;
+}
+
 /************************ RIGHT ***************************************/
 
 /*** THE DEBATE ***/
@@ -237,16 +327,25 @@ main {
   margin: 0;
 }
 
-.contestant-propouse a {
+.contestant-propouse-anchor {
+  line-height: 1.2;
+  font-weight: 700;
+  color: black;
   font-size: 1em;
 }
 
+.contestant-propouse-anchor:hover {
+  color: black;
+}
+
 .contestant-name {
+  line-height: 1.4;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 0.9em;
   color: gray;
   margin-top: 5px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .by {
@@ -260,6 +359,10 @@ main {
 }
 
 /*** OPINION ***/
+
+.opinion-big-container {
+  margin-bottom: 25px;
+}
 
 .opinion {
   height: auto;
