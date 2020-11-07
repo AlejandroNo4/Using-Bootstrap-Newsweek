@@ -4,7 +4,7 @@
 
 > This is a project to practice the use of Bootstrap, making a copy of the magazine "Newsweek"
 
-![screenshot](./screenshot.JPG)
+![screenshot](./Screenshot.JPG)
 
 In this project I applied bootstrap to stablish the architecture and behavior
 of the page when the window of the browser it's resized.
