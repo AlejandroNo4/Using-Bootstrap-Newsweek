@@ -1,65 +1,36 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Using Bootstrap Newsweek
 
-> One paragraph statement about the project.
+> This is a project to practice the use of Bootstrap, making a copy of the magazine "Newsweek"
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Screenshot.JPG)
 
-Additional description about the project and its features.
+In this project I applied bootstrap to stablish the architecture and behavior
+of the page when the window of the browser it's resized.
+Bootstrap was also used for stablish breaking points, redimension and align objects.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Bootstrap
+- HTML & CSS
+- Vs Code
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://alejandrono4.github.io/Using-Bootstrap-Newsweek/)
 
+👤 **Alejandro Contreras**
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@AlejandroNo4](https://github.com/AlejandroNo4)
+- Twitter: [@Alejand80002666](https://twitter.com/Alejand80002666)
+- LinkedIn: [Alejandro Contreras](https://www.linkedin.com/in/alejandro-contreras-rodriguez-b524821b5/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/AlejandroNo4/Using-Bootstrap-Newsweek/issues).
 
 ## Show your support
 
@@ -70,7 +41,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
