@@ -23,6 +23,28 @@
   <body>
     <!------------------------- STARTS HEADER ------------------------------------>
     <header class="container-fluid">
+      <div
+        class="little-nav-red row d-flex align-items-baseline d-lg-none position-fixed justify-content-between w-100"
+      >
+        <div class="margin-0">
+          <h1 class="logo-small margin-0">
+            <a href="#">Newsweek</a>
+          </h1>
+        </div>
+        <div class="d-flex log-in-subscribe-cont">
+          <div class="d-flex log-in-subscribe align-items-baseline">
+            <a href="#" class="d-block d-md-none"
+              ><i class="fas fa-user"></i
+            ></a>
+            <a href="#" class="d-none d-md-block">LOGIN</a>
+            <button type="button" class="btn subscribe">SUBSCRIBE ></button>
+            <div class="d-lg-none hamburguer">
+              <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------------------- STARTS HEADER -------------------------->
       <div class="row row-cols-2 row-cols-lg-3 top-navbar">
         <div class="col weather-date-container d-none d-lg-flex">
           <a href="#" class="weather-container">
@@ -38,12 +60,17 @@
           <span>Tue, Nov 03, 2020</span>
         </div>
         <div class="col margin-0">
-          <h1 class="logo text-center margin-0"><a href="#">Newsweek</a></h1>
+          <h1 class="logo text-center margin-0 d-none d-lg-block">
+            <a href="#">Newsweek</a>
+          </h1>
         </div>
         <div class="col d-flex log-in-subscribe-cont">
-          <div class="d-flex log-in-subscribe">
+          <div class="d-flex log-in-subscribe align-items-baseline">
             <a href="#">LOGIN</a>
             <button type="button" class="btn subscribe">SUBSCRIBE ></button>
+            <div class="d-lg-none hamburguer">
+              <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
           </div>
         </div>
       </div>
@@ -1904,7 +1931,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-4 container-card">
-          <span class="category-white bottom-categories">FREE SIGN UP ></span>
+          <span class="category-white bottom-categories">NEWSLETTER</span>
           <div class="card mb-3 margin-top-25">
             <div class="row no-gutters">
               <div class="col-md-6">
@@ -1930,7 +1957,7 @@
                   />
                   <br />
                   <button type="submit" class="btn btn-sign-up btn-block">
-                    asdsad
+                    FREE SIGN UP >
                   </button>
                 </div>
               </div>
@@ -1939,5 +1966,67 @@
         </div>
       </section>
     </main>
+    <!---------------------------- FOOTER --------------------->
+    <div class="line-divider w-100"></div>
+    <footer>
+      <div
+        class="d-flex footer-top justify-content-between align-items-baseline"
+      >
+        <div class="d-flex align-items-end">
+          <h1 class="logo-orange">Newsweer</h1>
+          <p>&nbsp; © 2020 NEWSWEEK DIGITAL LLC</p>
+        </div>
+        <nav>
+          <ul
+            class="social-media-links list-unstyled d-flex justify-content-around"
+          >
+            <li class="footer-social-media">
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li class="footer-social-media">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="footer-social-media">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="footer-social-media">
+              <a href="#"><i class="fab fa-tumblr"></i></a>
+            </li>
+            <li class="footer-social-media">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-nav">
+        <div class="line-divider w-100"></div>
+        <nav class="editions">
+          <ul class="list-unstyled list-footer d-flex">
+            <li><strong class="editions-link">Editions:</strong></li>
+            <li><a class="editions-link" href="#">U.S. Edition</a></li>
+            <li><a class="editions-link" href="#">日本</a></li>
+            <li><a class="editions-link" href="#">Pakistan</a></li>
+            <li><a class="editions-link" href="#">Polska</a></li>
+            <li><a class="editions-link" href="#">România</a></li>
+          </ul>
+        </nav>
+        <nav class="editions">
+          <ul class="list-unstyled list-footer d-flex">
+            <li><a class="editions-link" href="#">About Us</a></li>
+            <li><a class="editions-link" href="#">Corrections</a></li>
+            <li><a class="editions-link" href="#">Contact Us</a></li>
+            <li><a class="editions-link" href="#">Editorial Guidelines</a></li>
+            <li><a class="editions-link" href="#">Advertise</a></li>
+            <li><a class="editions-link" href="#">Copyright</a></li>
+            <li><a class="editions-link" href="#">Terms & Conditions</a></li>
+            <li><a class="editions-link" href="#">Privacy Policy</a></li>
+            <li><a class="editions-link" href="#">Cookie Policy</a></li>
+            <li><a class="editions-link" href="#">Terms of Sale</a></li>
+            <li><a class="editions-link" href="#">Archive</a></li>
+            <li><a class="editions-link" href="#">Announcements</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>

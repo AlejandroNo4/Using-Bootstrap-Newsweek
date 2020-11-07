@@ -6,6 +6,10 @@ body {
   line-height: 1.2;
 }
 
+a {
+  color: white;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -42,6 +46,8 @@ main {
   padding-right: 15px;
 }
 
+/************************* NAV BAR ***********************************/
+
 .top-navbar {
   background-color: #f72210;
   color: white;
@@ -75,6 +81,26 @@ main {
   height: 1.6em;
 }
 
+.little-nav-red {
+  background-color: #f72210;
+  max-width: 1295px;
+  z-index: 10000;
+  padding: 0;
+}
+
+.logo-small {
+  font-family: "Roboto slab", sans-serif;
+  margin-left: 5px;
+  color: white;
+  margin-top: 10px;
+  font-size: 2em;
+  letter-spacing: -2px;
+}
+
+.logo-small a {
+  color: white;
+}
+
 .logo {
   font-family: "Roboto slab", sans-serif;
   color: white;
@@ -88,7 +114,7 @@ main {
 }
 
 .log-in-subscribe {
-  margin-right: 0.8em;
+  margin-right: 0.5em;
   align-items: baseline;
 }
 
@@ -102,12 +128,16 @@ main {
 
 .subscribe {
   background-color: #ffe400;
+  white-space: nowrap;
   border-radius: 25px;
   margin-left: 25px;
   padding: 1px 15px;
 }
 
-/*** navbar ***/
+.hamburguer {
+  font-size: 1.5em;
+  margin-left: 5px;
+}
 
 .top-links-nav {
   width: 95%;
@@ -488,32 +518,6 @@ main {
   border: none;
 }
 
-.red {
-  background-color: red;
-  width: 100%;
-  margin-bottom: 25px;
-}
-
-.blue {
-  background-color: blue;
-  width: 100%;
-  margin-bottom: 25px;
-}
-
-.green {
-  background-color: green;
-  width: 100%;
-  height: 35px;
-  margin-bottom: 25px;
-}
-
-.yellow {
-  background-color: greenyellow;
-  width: 100%;
-  height: 35px;
-  margin-bottom: 25px;
-}
-
 .card-news {
   padding: 25px 25px 25px 25px;
 }
@@ -526,4 +530,50 @@ main {
 
 .subscribe-title {
   margin-bottom: 15px;
+}
+
+.container-card {
+  margin-bottom: 35px;
+}
+
+.footer-top {
+  margin: 0 25px -15px 25px;
+}
+
+.logo-orange {
+  font-family: "Roboto slab", sans-serif;
+  color: #f72210;
+  font-size: 3em;
+  letter-spacing: -3.5px;
+}
+
+.social-media-links {
+  width: 200px;
+}
+
+.footer-social-media a {
+  font-size: 1.5em;
+  color: gray;
+}
+
+.footer-social-media a:hover {
+  color: #30b6ff;
+}
+
+.footer-nav {
+  margin: 0 25px 35px 25px;
+}
+
+.editions {
+  margin-bottom: 5px;
+}
+
+.list-footer {
+  flex-wrap: wrap;
+}
+
+.editions-link {
+  font-size: 15px;
+  margin-right: 15px;
+  color: gray;
 }
